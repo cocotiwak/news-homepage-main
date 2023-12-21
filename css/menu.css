@@ -1,7 +1,7 @@
 .header {
-    background-color: #fff;
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-    position: fixed;
+  /*  background-color: #fff; */
+ /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1); */
+  position: fixed;
     width: 100%;
     z-index: 3;
   }
@@ -11,7 +11,7 @@
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: hsl(36, 100%, 99%);
   }
   
   .header li a {
@@ -38,13 +38,14 @@
     max-height: 0;
     transition: max-height .2s ease-out;
   }
-  .header .menu-icon {
+ .header .menu-icon {
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 28px 119px;
-/*    position: relative; */
+    padding: 39px 153px;
+   position: relative; 
     user-select: none;
+    background-color: hsl(36, 100%, 99%);
   }
   
   .header .menu-icon .navicon {

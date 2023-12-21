@@ -14,6 +14,7 @@ module.exports = {
         'Dark-grayish-blue': 'hsl(236, 13%, 42%)',
         'Very-dark-blue': 'hsl(240, 100%, 5%)',
         'tomato': 'hsl(4, 100%, 67%)',
+        'Grayish-blue-trans': 'hsla(233, 8%, 79%,0.5)',
       },
       fontSize: {
         'paragraph': ['15px','24px'],

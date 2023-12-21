@@ -18,6 +18,25 @@
 		<title>News HomePage</title>
 	</head>
 	<body class="font-inter text-paragraph bg-Off-white">
+		<header
+			class="header lg:hidden grid grid-cols-3 justify-between items-center bg-Grayish-blue-trans">
+			<a href="/" class="logo p-4 bg-Off-white"
+				><img src="./assets/images/logo.svg" alt=""
+			/></a>
+
+			<input class="menu-btn" type="checkbox" id="menu-btn" />
+			<label class="menu-icon" for="menu-btn"
+				><span class="navicon"></span
+			></label>
+
+			<ul class="menu col-start-2 col-span-2">
+				<li><a href="#work">Home</a></li>
+				<li><a href="#about">New</a></li>
+				<li><a href="#careers">Popular</a></li>
+				<li><a href="#contact">Trending</a></li>
+				<li><a href="#contact">Categories</a></li>
+			</ul>
+		</header>
 		<div class="">
 			<div
 				class="grid justify-center lg:min-w-[800px] lg:min-h-screen lg:px-[20%] lg:py-[5%] p-4">
@@ -41,25 +60,7 @@
 					</nav>
 				</header>
 
-				<header class="header lg:hidden grid grid-cols-2 justify-between">
-					<a href="/" class="logo"
-						><img src="./assets/images/logo.svg" alt=""
-					/></a>
-					<input class="menu-btn" type="checkbox" id="menu-btn" />
-					<label class="menu-icon" for="menu-btn"
-						><span class="navicon"></span
-					></label>
-					<div class="menu">ini div</div>
-					<ul class="menu col-start-1 col-span-2 pl-20">
-						<li><a href="#work">Home</a></li>
-						<li><a href="#about">New</a></li>
-						<li><a href="#careers">Popular</a></li>
-						<li><a href="#contact">Trending</a></li>
-						<li><a href="#contact">Categories</a></li>
-					</ul>
-				</header>
-
-				<main class="grid grid-flow-row mt-8 gap-5 lg:grid-cols-3">
+				<main class="grid grid-flow-row lg:mt-8 gap-5 lg:grid-cols-3 mt-[90px]">
 					<div class="lg:col-start-1 lg:col-span-2">
 						<div>
 							<img
